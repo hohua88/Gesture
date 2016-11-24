@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SetGesViewController">
+            <connections>
+                <outlet property="imageView" destination="bz9-ao-aOZ" id="gTr-qf-hog"/>
+                <outlet property="notifyLabel" destination="TfW-Yl-hqm" id="PVQ-qp-KQ2"/>
+                <outlet property="smallGestureView" destination="71S-Dh-sHg" id="nd8-M2-02D"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home_refresh_bg" translatesAutoresizingMaskIntoConstraints="NO" id="BCq-3H-yTu">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="669"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="绘制手势密码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TfW-Yl-hqm">
+                    <rect key="frame" x="30" y="150" width="315" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="NLp-Ie-WEO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="71S-Dh-sHg">
+                    <rect key="frame" x="137.5" y="30" width="100" height="100"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="vj3-JA-4e8"/>
+                        <constraint firstAttribute="height" constant="100" id="xEg-dv-xtc"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bz9-ao-aOZ">
+                    <rect key="frame" x="0.0" y="191" width="375" height="476"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="71S-Dh-sHg" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8Ha-YE-Jub"/>
+                <constraint firstItem="bz9-ao-aOZ" firstAttribute="top" secondItem="TfW-Yl-hqm" secondAttribute="bottom" constant="20" id="Bm1-39-6Sw"/>
+                <constraint firstItem="TfW-Yl-hqm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="C5X-WE-DyE"/>
+                <constraint firstItem="BCq-3H-yTu" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="MIZ-Uv-Sa0"/>
+                <constraint firstAttribute="bottom" secondItem="BCq-3H-yTu" secondAttribute="bottom" constant="-2" id="OhM-Mk-VYf"/>
+                <constraint firstAttribute="bottom" secondItem="bz9-ao-aOZ" secondAttribute="bottom" id="Rnn-02-5J0"/>
+                <constraint firstItem="bz9-ao-aOZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Tjf-zM-cy6"/>
+                <constraint firstAttribute="trailing" secondItem="TfW-Yl-hqm" secondAttribute="trailing" constant="30" id="XM6-94-nne"/>
+                <constraint firstItem="71S-Dh-sHg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="d45-6e-Hp0"/>
+                <constraint firstItem="BCq-3H-yTu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fEX-OV-MjF"/>
+                <constraint firstAttribute="trailing" secondItem="BCq-3H-yTu" secondAttribute="trailing" id="llm-JV-HI3"/>
+                <constraint firstItem="TfW-Yl-hqm" firstAttribute="top" secondItem="71S-Dh-sHg" secondAttribute="bottom" constant="20" id="msx-ng-O6b"/>
+                <constraint firstAttribute="trailing" secondItem="bz9-ao-aOZ" secondAttribute="trailing" id="sjz-Zi-6Gq"/>
+            </constraints>
+            <point key="canvasLocation" x="-15" y="11"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Home_refresh_bg" width="640" height="1008"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

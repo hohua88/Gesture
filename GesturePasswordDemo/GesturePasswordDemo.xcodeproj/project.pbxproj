@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64D8FDEB1DE68F10009AA3FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FDEA1DE68F10009AA3FC /* main.m */; };
+		64D8FDEE1DE68F10009AA3FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FDED1DE68F10009AA3FC /* AppDelegate.m */; };
+		64D8FDF11DE68F10009AA3FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FDF01DE68F10009AA3FC /* ViewController.m */; };
+		64D8FDF41DE68F11009AA3FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D8FDF21DE68F11009AA3FC /* Main.storyboard */; };
+		64D8FDF61DE68F11009AA3FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D8FDF51DE68F11009AA3FC /* Assets.xcassets */; };
+		64D8FDF91DE68F11009AA3FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D8FDF71DE68F11009AA3FC /* LaunchScreen.storyboard */; };
+		64D8FE051DE68F5D009AA3FC /* SetGesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FE021DE68F5D009AA3FC /* SetGesViewController.m */; };
+		64D8FE061DE68F5D009AA3FC /* VertifyGesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FE041DE68F5D009AA3FC /* VertifyGesViewController.m */; };
+		64D8FE091DE68FDC009AA3FC /* SetGesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D8FE071DE68FDC009AA3FC /* SetGesViewController.xib */; };
+		64D8FE0A1DE68FDC009AA3FC /* VertifyGesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64D8FE081DE68FDC009AA3FC /* VertifyGesViewController.xib */; };
+		64D8FE101DE6937D009AA3FC /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FE0F1DE6937D009AA3FC /* NSString+MD5.m */; };
+		64D8FE131DE6B679009AA3FC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FE121DE6B679009AA3FC /* MainViewController.m */; };
+		64D8FE161DE6B896009AA3FC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FE151DE6B896009AA3FC /* LoginViewController.m */; };
+		64D8FE191DE6BFEE009AA3FC /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FE181DE6BFEE009AA3FC /* MeViewController.m */; };
+		B95C6F4478D8B13DF2BFF380 /* Pods_GesturePasswordDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4047E63CCE0CF8F4D002ED71 /* Pods_GesturePasswordDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3ED705F36E62AFD1D70FB164 /* Pods-GesturePasswordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GesturePasswordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GesturePasswordDemo/Pods-GesturePasswordDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4047E63CCE0CF8F4D002ED71 /* Pods_GesturePasswordDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GesturePasswordDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D8FDE61DE68F10009AA3FC /* GesturePasswordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturePasswordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D8FDEA1DE68F10009AA3FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64D8FDEC1DE68F10009AA3FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		64D8FDED1DE68F10009AA3FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		64D8FDEF1DE68F10009AA3FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		64D8FDF01DE68F10009AA3FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		64D8FDF31DE68F11009AA3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64D8FDF51DE68F11009AA3FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D8FDF81DE68F11009AA3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64D8FDFA1DE68F11009AA3FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D8FE011DE68F5D009AA3FC /* SetGesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetGesViewController.h; sourceTree = "<group>"; };
+		64D8FE021DE68F5D009AA3FC /* SetGesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetGesViewController.m; sourceTree = "<group>"; };
+		64D8FE031DE68F5D009AA3FC /* VertifyGesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VertifyGesViewController.h; sourceTree = "<group>"; };
+		64D8FE041DE68F5D009AA3FC /* VertifyGesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VertifyGesViewController.m; sourceTree = "<group>"; };
+		64D8FE071DE68FDC009AA3FC /* SetGesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetGesViewController.xib; sourceTree = "<group>"; };
+		64D8FE081DE68FDC009AA3FC /* VertifyGesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VertifyGesViewController.xib; sourceTree = "<group>"; };
+		64D8FE0C1DE6903F009AA3FC /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		64D8FE0E1DE6937D009AA3FC /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		64D8FE0F1DE6937D009AA3FC /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		64D8FE111DE6B679009AA3FC /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = GesturePasswordDemo/MainViewController.h; sourceTree = SOURCE_ROOT; };
+		64D8FE121DE6B679009AA3FC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = GesturePasswordDemo/MainViewController.m; sourceTree = SOURCE_ROOT; };
+		64D8FE141DE6B896009AA3FC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = GesturePasswordDemo/LoginViewController.h; sourceTree = SOURCE_ROOT; };
+		64D8FE151DE6B896009AA3FC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = GesturePasswordDemo/LoginViewController.m; sourceTree = SOURCE_ROOT; };
+		64D8FE171DE6BFEE009AA3FC /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = ../MeViewController.h; sourceTree = "<group>"; };
+		64D8FE181DE6BFEE009AA3FC /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = ../MeViewController.m; sourceTree = "<group>"; };
+		84F420FD3B8708BD55940011 /* Pods-GesturePasswordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GesturePasswordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GesturePasswordDemo/Pods-GesturePasswordDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64D8FDE31DE68F10009AA3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95C6F4478D8B13DF2BFF380 /* Pods_GesturePasswordDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ED8BD27AD49D8BAD0CFC161 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4047E63CCE0CF8F4D002ED71 /* Pods_GesturePasswordDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47E1584971930609008A9C3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3ED705F36E62AFD1D70FB164 /* Pods-GesturePasswordDemo.debug.xcconfig */,
+				84F420FD3B8708BD55940011 /* Pods-GesturePasswordDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		64D8FDDD1DE68F10009AA3FC = {
+			isa = PBXGroup;
+			children = (
+				64D8FDE81DE68F10009AA3FC /* GesturePasswordDemo */,
+				64D8FDE71DE68F10009AA3FC /* Products */,
+				47E1584971930609008A9C3C /* Pods */,
+				1ED8BD27AD49D8BAD0CFC161 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		64D8FDE71DE68F10009AA3FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64D8FDE61DE68F10009AA3FC /* GesturePasswordDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64D8FDE81DE68F10009AA3FC /* GesturePasswordDemo */ = {
+			isa = PBXGroup;
+			children = (
+				64D8FE1A1DE6D9EC009AA3FC /* Login */,
+				64D8FE1B1DE6D9EC009AA3FC /* Main */,
+				64D8FE0D1DE6935D009AA3FC /* Categories */,
+				64D8FE001DE68F4D009AA3FC /* Gesture */,
+				64D8FDEC1DE68F10009AA3FC /* AppDelegate.h */,
+				64D8FDED1DE68F10009AA3FC /* AppDelegate.m */,
+				64D8FDF21DE68F11009AA3FC /* Main.storyboard */,
+				64D8FDF51DE68F11009AA3FC /* Assets.xcassets */,
+				64D8FDF71DE68F11009AA3FC /* LaunchScreen.storyboard */,
+				64D8FDFA1DE68F11009AA3FC /* Info.plist */,
+				64D8FDE91DE68F10009AA3FC /* Supporting Files */,
+			);
+			path = GesturePasswordDemo;
+			sourceTree = "<group>";
+		};
+		64D8FDE91DE68F10009AA3FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64D8FDEA1DE68F10009AA3FC /* main.m */,
+				64D8FE0C1DE6903F009AA3FC /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64D8FE001DE68F4D009AA3FC /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				64D8FE011DE68F5D009AA3FC /* SetGesViewController.h */,
+				64D8FE021DE68F5D009AA3FC /* SetGesViewController.m */,
+				64D8FE071DE68FDC009AA3FC /* SetGesViewController.xib */,
+				64D8FE031DE68F5D009AA3FC /* VertifyGesViewController.h */,
+				64D8FE041DE68F5D009AA3FC /* VertifyGesViewController.m */,
+				64D8FE081DE68FDC009AA3FC /* VertifyGesViewController.xib */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		64D8FE0D1DE6935D009AA3FC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				64D8FE0E1DE6937D009AA3FC /* NSString+MD5.h */,
+				64D8FE0F1DE6937D009AA3FC /* NSString+MD5.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		64D8FE1A1DE6D9EC009AA3FC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				64D8FE141DE6B896009AA3FC /* LoginViewController.h */,
+				64D8FE151DE6B896009AA3FC /* LoginViewController.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		64D8FE1B1DE6D9EC009AA3FC /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				64D8FDEF1DE68F10009AA3FC /* ViewController.h */,
+				64D8FDF01DE68F10009AA3FC /* ViewController.m */,
+				64D8FE111DE6B679009AA3FC /* MainViewController.h */,
+				64D8FE121DE6B679009AA3FC /* MainViewController.m */,
+				64D8FE171DE6BFEE009AA3FC /* MeViewController.h */,
+				64D8FE181DE6BFEE009AA3FC /* MeViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64D8FDE51DE68F10009AA3FC /* GesturePasswordDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64D8FDFD1DE68F11009AA3FC /* Build configuration list for PBXNativeTarget "GesturePasswordDemo" */;
+			buildPhases = (
+				7FC6FB5FACD8D03A5AF4A4D9 /* [CP] Check Pods Manifest.lock */,
+				64D8FDE21DE68F10009AA3FC /* Sources */,
+				64D8FDE31DE68F10009AA3FC /* Frameworks */,
+				64D8FDE41DE68F10009AA3FC /* Resources */,
+				63AD07627ADE6E80A5B737D2 /* [CP] Embed Pods Frameworks */,
+				23F2535BADAB57FE9B185D65 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GesturePasswordDemo;
+			productName = GesturePasswordDemo;
+			productReference = 64D8FDE61DE68F10009AA3FC /* GesturePasswordDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64D8FDDE1DE68F10009AA3FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = eddy;
+				TargetAttributes = {
+					64D8FDE51DE68F10009AA3FC = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 3F26E5NA27;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 64D8FDE11DE68F10009AA3FC /* Build configuration list for PBXProject "GesturePasswordDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64D8FDDD1DE68F10009AA3FC;
+			productRefGroup = 64D8FDE71DE68F10009AA3FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64D8FDE51DE68F10009AA3FC /* GesturePasswordDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64D8FDE41DE68F10009AA3FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D8FDF91DE68F11009AA3FC /* LaunchScreen.storyboard in Resources */,
+				64D8FDF61DE68F11009AA3FC /* Assets.xcassets in Resources */,
+				64D8FDF41DE68F11009AA3FC /* Main.storyboard in Resources */,
+				64D8FE0A1DE68FDC009AA3FC /* VertifyGesViewController.xib in Resources */,
+				64D8FE091DE68FDC009AA3FC /* SetGesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23F2535BADAB57FE9B185D65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GesturePasswordDemo/Pods-GesturePasswordDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63AD07627ADE6E80A5B737D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GesturePasswordDemo/Pods-GesturePasswordDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FC6FB5FACD8D03A5AF4A4D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64D8FDE21DE68F10009AA3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D8FE191DE6BFEE009AA3FC /* MeViewController.m in Sources */,
+				64D8FE161DE6B896009AA3FC /* LoginViewController.m in Sources */,
+				64D8FE101DE6937D009AA3FC /* NSString+MD5.m in Sources */,
+				64D8FDF11DE68F10009AA3FC /* ViewController.m in Sources */,
+				64D8FE061DE68F5D009AA3FC /* VertifyGesViewController.m in Sources */,
+				64D8FDEE1DE68F10009AA3FC /* AppDelegate.m in Sources */,
+				64D8FE131DE6B679009AA3FC /* MainViewController.m in Sources */,
+				64D8FDEB1DE68F10009AA3FC /* main.m in Sources */,
+				64D8FE051DE68F5D009AA3FC /* SetGesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64D8FDF21DE68F11009AA3FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D8FDF31DE68F11009AA3FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		64D8FDF71DE68F11009AA3FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64D8FDF81DE68F11009AA3FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64D8FDFB1DE68F11009AA3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64D8FDFC1DE68F11009AA3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64D8FDFE1DE68F11009AA3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ED705F36E62AFD1D70FB164 /* Pods-GesturePasswordDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F26E5NA27;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/eddy/Desktop/demo/GesturePasswordDemo/GesturePasswordDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = GesturePasswordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangchi.GesturePasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		64D8FDFF1DE68F11009AA3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F420FD3B8708BD55940011 /* Pods-GesturePasswordDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3F26E5NA27;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/eddy/Desktop/demo/GesturePasswordDemo/GesturePasswordDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = GesturePasswordDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuangchi.GesturePasswordDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64D8FDE11DE68F10009AA3FC /* Build configuration list for PBXProject "GesturePasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D8FDFB1DE68F11009AA3FC /* Debug */,
+				64D8FDFC1DE68F11009AA3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64D8FDFD1DE68F11009AA3FC /* Build configuration list for PBXNativeTarget "GesturePasswordDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64D8FDFE1DE68F11009AA3FC /* Debug */,
+				64D8FDFF1DE68F11009AA3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64D8FDDE1DE68F10009AA3FC /* Project object */;
+}
