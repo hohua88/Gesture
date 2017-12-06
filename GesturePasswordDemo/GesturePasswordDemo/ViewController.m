@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "PasswordCheckView.h"
 @interface ViewController ()
 
 @end
@@ -19,6 +19,9 @@
     [self.view setBackgroundColor:UIColorFromRGB(0x39353F)];
 }
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

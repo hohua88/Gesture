@@ -8,6 +8,7 @@
 
 #import "MeViewController.h"
 #import "SetGesViewController.h"
+#import "PasswordCheckView.h"
 
 static NSString *const cellID = @"cell";
 
@@ -36,6 +37,11 @@ static NSString *const cellID = @"cell";
         make.bottom.mas_equalTo(self.view.mas_bottom);
     }];
 }
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -43,7 +49,7 @@ static NSString *const cellID = @"cell";
 
 #pragma  mark - UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
-    return 2;
+    return 3;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
@@ -59,6 +65,9 @@ static NSString *const cellID = @"cell";
         [onSwitch addTarget:self action:@selector(valueChanded:) forControlEvents:UIControlEventValueChanged];
         cell.accessoryView = onSwitch;
     }
+    else if(indexPath.row == 1){
+        cell.textLabel.text = @"测试";
+    }
     else{
         cell.textLabel.text = @"退出";
     }
@@ -69,6 +78,14 @@ static NSString *const cellID = @"cell";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     if (indexPath.row == 1) {
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"测试" message:@"" preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"确定" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        }];
+        [alertController addAction:okAction];
+        [self presentViewController:alertController animated:NO completion:nil];
+
+    }
+    if (indexPath.row == 2) {
         [DBUtil setBool:NO forKey:kDB_GestureValid];
         [DBUtil setObject:nil forKey:kDB_GesturePwd];
         [[NSNotificationCenter defaultCenter] postNotificationName:KNOTIFICATION_LOGINCHANGE object:@NO];

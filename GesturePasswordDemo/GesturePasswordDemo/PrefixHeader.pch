@@ -13,6 +13,8 @@
 #import <Masonry/Masonry.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 
+#import "PasswordCheckView.h"
+
 #import "NSString+MD5.h"
 //屏幕尺寸
 #define kScreenHeight [[UIScreen mainScreen] bounds].size.height

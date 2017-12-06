@@ -21,6 +21,7 @@ NSInteger maxCount = 5;
     
     //设置头像位圆形
     self.iconImageV.layer.cornerRadius=self.iconImageV.bounds.size.height/2;
+    
     self.iconImageV.layer.borderColor=[UIColor whiteColor].CGColor;
     self.iconImageV.layer.borderWidth=1;
     self.iconImageV.layer.masksToBounds=YES;

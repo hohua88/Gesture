@@ -10,6 +10,7 @@
 #import "MainViewController.h"
 #import "LoginViewController.h"
 #import "VertifyGesViewController.h"
+#import "PasswordCheckView.h"
 
 @interface AppDelegate ()
 
@@ -21,19 +22,20 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    if ([DBUtil objectForKey:kDB_GestureValid]) {
-        VertifyGesViewController *controller = [VertifyGesViewController new];
-        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
-        self.window.rootViewController = nav;
-    }
-    else{
-        [self loginStateChange:nil];
-    }
-    
+//    if ([DBUtil objectForKey:kDB_GestureValid]) {
+//        VertifyGesViewController *controller = [VertifyGesViewController new];
+//        UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:controller];
+//        self.window.rootViewController = nav;
+//    }
+//    else{
+//        [self loginStateChange:nil];
+//    }
+    [self loginStateChange:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self
                                              selector:@selector(loginStateChange:)
                                                  name:KNOTIFICATION_LOGINCHANGE
                                                object:nil];
+    
     return YES;
 }
 
@@ -46,12 +48,13 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
 
-     UIViewController *rootViewController = [[[UIApplication sharedApplication] delegate] window].rootViewController;
-    if ([rootViewController isKindOfClass:[UINavigationController class]]) {
-        return;
-    }
+//     UIViewController *rootViewController = [[[UIApplication sharedApplication] delegate] window].rootViewController;
+//    if ([rootViewController isKindOfClass:[UINavigationController class]]) {
+//        return;
+//    }
     if ([DBUtil boolForKey:kDB_GestureValid]) { //手势密码有效
-        [self.window.rootViewController presentViewController:[VertifyGesViewController new] animated:NO completion:nil];
+        //[self.window.rootViewController presentViewController:[VertifyGesViewController new] animated:NO completion:nil];
+        [[PasswordCheckView sharedInstance] show];
     }
 }
 
@@ -85,10 +88,13 @@
     }
 }
 - (void)userLogined{
-    self.window.rootViewController = [MainViewController new];
+    
+    self.window.rootViewController = [[MainViewController alloc] init];
+    [self.window makeKeyAndVisible];
 }
 - (void)userLoginOut{
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[LoginViewController new]];
+    [self.window makeKeyAndVisible];
 }
 
 @end

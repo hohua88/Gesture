@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64D3223F1FD6892200901D55 /* PasswordCheckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D3223E1FD6892200901D55 /* PasswordCheckView.m */; };
+		64D322461FD69C5D00901D55 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D322431FD69C5C00901D55 /* MeViewController.m */; };
+		64D322471FD69C5D00901D55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D322451FD69C5D00901D55 /* ViewController.m */; };
 		64D8FDEB1DE68F10009AA3FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FDEA1DE68F10009AA3FC /* main.m */; };
 		64D8FDEE1DE68F10009AA3FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FDED1DE68F10009AA3FC /* AppDelegate.m */; };
-		64D8FDF11DE68F10009AA3FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FDF01DE68F10009AA3FC /* ViewController.m */; };
 		64D8FDF41DE68F11009AA3FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D8FDF21DE68F11009AA3FC /* Main.storyboard */; };
 		64D8FDF61DE68F11009AA3FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D8FDF51DE68F11009AA3FC /* Assets.xcassets */; };
 		64D8FDF91DE68F11009AA3FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D8FDF71DE68F11009AA3FC /* LaunchScreen.storyboard */; };
@@ -20,19 +22,22 @@
 		64D8FE101DE6937D009AA3FC /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FE0F1DE6937D009AA3FC /* NSString+MD5.m */; };
 		64D8FE131DE6B679009AA3FC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FE121DE6B679009AA3FC /* MainViewController.m */; };
 		64D8FE161DE6B896009AA3FC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FE151DE6B896009AA3FC /* LoginViewController.m */; };
-		64D8FE191DE6BFEE009AA3FC /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64D8FE181DE6BFEE009AA3FC /* MeViewController.m */; };
 		B95C6F4478D8B13DF2BFF380 /* Pods_GesturePasswordDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4047E63CCE0CF8F4D002ED71 /* Pods_GesturePasswordDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3ED705F36E62AFD1D70FB164 /* Pods-GesturePasswordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GesturePasswordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GesturePasswordDemo/Pods-GesturePasswordDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		4047E63CCE0CF8F4D002ED71 /* Pods_GesturePasswordDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GesturePasswordDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64D3223D1FD6892200901D55 /* PasswordCheckView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordCheckView.h; sourceTree = "<group>"; };
+		64D3223E1FD6892200901D55 /* PasswordCheckView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordCheckView.m; sourceTree = "<group>"; };
+		64D322421FD69C5C00901D55 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = GesturePasswordDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		64D322431FD69C5C00901D55 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = GesturePasswordDemo/MeViewController.m; sourceTree = SOURCE_ROOT; };
+		64D322441FD69C5C00901D55 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = GesturePasswordDemo/MeViewController.h; sourceTree = SOURCE_ROOT; };
+		64D322451FD69C5D00901D55 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = GesturePasswordDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
 		64D8FDE61DE68F10009AA3FC /* GesturePasswordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesturePasswordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64D8FDEA1DE68F10009AA3FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64D8FDEC1DE68F10009AA3FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64D8FDED1DE68F10009AA3FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64D8FDEF1DE68F10009AA3FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
-		64D8FDF01DE68F10009AA3FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
 		64D8FDF31DE68F11009AA3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64D8FDF51DE68F11009AA3FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64D8FDF81DE68F11009AA3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -50,8 +55,6 @@
 		64D8FE121DE6B679009AA3FC /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = GesturePasswordDemo/MainViewController.m; sourceTree = SOURCE_ROOT; };
 		64D8FE141DE6B896009AA3FC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = GesturePasswordDemo/LoginViewController.h; sourceTree = SOURCE_ROOT; };
 		64D8FE151DE6B896009AA3FC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = GesturePasswordDemo/LoginViewController.m; sourceTree = SOURCE_ROOT; };
-		64D8FE171DE6BFEE009AA3FC /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MeViewController.h; path = ../MeViewController.h; sourceTree = "<group>"; };
-		64D8FE181DE6BFEE009AA3FC /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MeViewController.m; path = ../MeViewController.m; sourceTree = "<group>"; };
 		84F420FD3B8708BD55940011 /* Pods-GesturePasswordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GesturePasswordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GesturePasswordDemo/Pods-GesturePasswordDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +141,8 @@
 				64D8FE031DE68F5D009AA3FC /* VertifyGesViewController.h */,
 				64D8FE041DE68F5D009AA3FC /* VertifyGesViewController.m */,
 				64D8FE081DE68FDC009AA3FC /* VertifyGesViewController.xib */,
+				64D3223D1FD6892200901D55 /* PasswordCheckView.h */,
+				64D3223E1FD6892200901D55 /* PasswordCheckView.m */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -163,12 +168,12 @@
 		64D8FE1B1DE6D9EC009AA3FC /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				64D8FDEF1DE68F10009AA3FC /* ViewController.h */,
-				64D8FDF01DE68F10009AA3FC /* ViewController.m */,
 				64D8FE111DE6B679009AA3FC /* MainViewController.h */,
 				64D8FE121DE6B679009AA3FC /* MainViewController.m */,
-				64D8FE171DE6BFEE009AA3FC /* MeViewController.h */,
-				64D8FE181DE6BFEE009AA3FC /* MeViewController.m */,
+				64D322441FD69C5C00901D55 /* MeViewController.h */,
+				64D322431FD69C5C00901D55 /* MeViewController.m */,
+				64D322421FD69C5C00901D55 /* ViewController.h */,
+				64D322451FD69C5D00901D55 /* ViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -298,10 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64D8FE191DE6BFEE009AA3FC /* MeViewController.m in Sources */,
+				64D322461FD69C5D00901D55 /* MeViewController.m in Sources */,
 				64D8FE161DE6B896009AA3FC /* LoginViewController.m in Sources */,
 				64D8FE101DE6937D009AA3FC /* NSString+MD5.m in Sources */,
-				64D8FDF11DE68F10009AA3FC /* ViewController.m in Sources */,
+				64D3223F1FD6892200901D55 /* PasswordCheckView.m in Sources */,
+				64D322471FD69C5D00901D55 /* ViewController.m in Sources */,
 				64D8FE061DE68F5D009AA3FC /* VertifyGesViewController.m in Sources */,
 				64D8FDEE1DE68F10009AA3FC /* AppDelegate.m in Sources */,
 				64D8FE131DE6B679009AA3FC /* MainViewController.m in Sources */,
